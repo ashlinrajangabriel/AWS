@@ -22,7 +22,7 @@ print(GroupLists)
 V_CreateGroupID = ec2.create_security_group (
 GroupName = 'GabrielGroup' ,
 Description  = 'Description of Gabriel Group',
-VpcId  =  'vpc-d4934ead'
+VpcId  =  'vpc-er344300356XX'
 )
 print("Group ID created")
 gid = V_CreateGroupID['GroupId']
